@@ -8,7 +8,7 @@ def welcome_assignment_answers(question):
         return(answer)
 
     if question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "Yes"
+        answer = "No"
         return(answer)
 
     if question == "Is it possible to decode a message without a key? - Yes/No":
@@ -34,6 +34,7 @@ def welcome_assignment_answers(question):
     if question == "What layer of the TCP/IP model does the protocol ICMP belong to?":
         answer = "2"
         return(answer)
+
 
 
 
