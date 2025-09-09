@@ -8,7 +8,7 @@ def welcome_assignment_answers(question):
         return(answer)
 
     if question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "Yes"
+        answer = "No"
         return(answer)
 
     if question == "Is it possible to decode a message without a key? - Yes/No":
@@ -20,7 +20,7 @@ def welcome_assignment_answers(question):
         return(answer)
 
     if question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
-        answer = "8152"
+        answer = "b92d7fde9b860d26b779dd51c91e0803be956a5b29f5bc33341c909fec15b9fc"
         return(answer)
 
     if question == "Is MD5 a secured hashing algorithm?":
@@ -28,11 +28,12 @@ def welcome_assignment_answers(question):
         return(answer)
 
     if question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = "7"
+        answer = "4"
         return(answer)
 
     if question == "What layer of the TCP/IP model does the protocol ICMP belong to?":
-        answer = "3"
+        answer = "2"
         return(answer)
+
 
 
