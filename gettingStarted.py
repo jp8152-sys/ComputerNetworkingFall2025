@@ -5,7 +5,7 @@ def welcome_assignment_answers(question):
 
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
-        return(answer))
+        print(welcome_assignment_answers(answer))
 
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "Yes"
@@ -34,4 +34,5 @@ def welcome_assignment_answers(question):
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to?":
         answer = "3"
         print(welcome_assignment_answers(answer))
+
 
