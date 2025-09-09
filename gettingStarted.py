@@ -3,35 +3,36 @@ def welcome_assignment_answers(question):
         answer = "pcap"
         return(answer)
 
-    elif question == "Are encoding and encryption the same? - Yes/No":
+    if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
         return(answer)
 
-    elif question == "Is it possible to decrypt a message without a key? - Yes/No":
+    if question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "Yes"
         return(answer)
 
-    elif question == "Is it possible to decode a message without a key? - Yes/No":
+    if question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "Yes"
         return(answer)
 
-    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
+    if question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
         return(answer)
 
-    elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
+    if question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
         answer = "8152"
         return(answer)
 
-    elif question == "Is MD5 a secured hashing algorithm?":
+    if question == "Is MD5 a secured hashing algorithm?":
         answer = "No"
         return(answer)
 
-    elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
+    if question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
         answer = "7"
         return(answer)
 
-    elif question == "What layer of the TCP/IP model does the protocol ICMP belong to?":
+    if question == "What layer of the TCP/IP model does the protocol ICMP belong to?":
         answer = "3"
         return(answer)
+
 
