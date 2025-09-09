@@ -32,8 +32,9 @@ def welcome_assignment_answers(question):
         return(answer)
 
     if question == "What layer of the TCP/IP model does the protocol ICMP belong to?":
-        answer = "2"
+        answer = "3"
         return(answer)
+
 
 
 
