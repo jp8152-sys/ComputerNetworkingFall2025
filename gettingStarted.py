@@ -1,5 +1,4 @@
 def welcome_assignment_answers(question):
-     print(f"DEBUG: Received question: {repr(question)}"
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "pcap"
         return(answer)
@@ -22,12 +21,13 @@ def welcome_assignment_answers(question):
         answer = "No"
         return(answer)
     if question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = "4"
+        answer = 4
         return(answer)
     if question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
         return(answer)
-    return "Question not recognized."
+    
+
 
 
 
