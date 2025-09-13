@@ -14,10 +14,11 @@ def welcome_assignment_answers(question):
     if question == "Is MD5 a secured hashing algorithm? - Yes/No":
         return "No"
     if question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        return 4
+        return 5
     if question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         return 3
     return ""
+
 
 
 
