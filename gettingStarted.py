@@ -21,12 +21,13 @@ def welcome_assignment_answers(question):
         answer = "No"
         return(answer)
     if question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = 4
+        answer = "4"
         return(answer)
     if question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = 3
+        answer = "3"
         return(answer)
     
+
 
 
 
