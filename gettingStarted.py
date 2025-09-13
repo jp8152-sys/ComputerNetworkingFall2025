@@ -1,3 +1,4 @@
+print(f"Received question: {repr(question)}")
 def welcome_assignment_answers(question):
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "pcap"
@@ -27,6 +28,7 @@ def welcome_assignment_answers(question):
         answer = 3
         return(answer)
     return "Question not recognized."
+
 
 
 
